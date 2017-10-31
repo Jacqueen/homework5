@@ -63,7 +63,7 @@ const updateData = function ()
 	}
 	else if(hero.y > canvas.height - 200)
 	{
-		hero.yDelta = 0;
+		hero.y = canvas.height - 200;
 
 };
 
